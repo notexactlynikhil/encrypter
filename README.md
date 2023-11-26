@@ -1,4 +1,4 @@
-# encrypter
+# Encrypter & Decrypter
 Basic program to encrypt and decrypt text using the Fernet library (my 12th grade project)
 
 ## Prerequisites
@@ -17,3 +17,6 @@ Basic program to encrypt and decrypt text using the Fernet library (my 12th grad
    use encrypted_stuff
    create table encrypted_messages (encrypted_data varchar(900), key varchar(900));
 ```
+## Things to keep in mind
+ * Set your host as localhost in encrypter.py
+ * Set your password according to whatever you set while isntalling MySQL
